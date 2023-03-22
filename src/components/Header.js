@@ -1,20 +1,19 @@
 import React from "react";
 import Navigation from "./Navigation";
-
+import background from '../images/jeremy-bishop-unsplash.jpg';
 
 const Header = (props) => {
     return (
-        <html>
-        <header className="bg-image relative"
+        <div className="bg-image"
             style={{
-                backgroundImage: `url(${require('../images/jeremy-bishop-unsplash.jpg')})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center'
+                backgroundImage: `url(${background})`,
+                backgroundSize: 'cover'
             }}>
-            <Navigation />  
-        </header>
-       </html>
+                This is some text
+            <Navigation />
+        </div>
+         
     );
 };
 
-export default Header
+export default Header 

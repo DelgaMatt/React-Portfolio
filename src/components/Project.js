@@ -1,12 +1,11 @@
-import React from 'react';
-import Header from './Header';
-import Navigation from './Navigation';
-import { useState, useEffect } from 'react';
+// import React from 'react';
+// import Header from './Header';
+// import Navigation from './Navigation';
+// import { useState, useEffect } from 'react';
 
-const PortfolioContainer = () => {
-    return (
-    <Header />
-    );
-}
+// const PortfolioContainer = () => {
+//     return (
+//     );
+// }
 
-export default PortfolioContainer;
+// export default PortfolioContainer;
