@@ -1,14 +1,9 @@
 // import Project from './components/Project';
-import Navigation from './components/Navigation';
-import Header from './components/Header';
+import PortfolioContainer from './components/PortfolioContainer';
 
 function App() {
   return (
-  <div>
-    <Navigation />
-    <Header />
-  </div>
-
+    <PortfolioContainer/>
   )
 }
 
