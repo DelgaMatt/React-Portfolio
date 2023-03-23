@@ -1,10 +1,14 @@
-import Project from './components/Project';
+// import Project from './components/Project';
 import Navigation from './components/Navigation';
 import Header from './components/Header';
 
 function App() {
   return (
-  <Header />
+  <div>
+    <Navigation />
+    <Header />
+  </div>
+
   )
 }
 
