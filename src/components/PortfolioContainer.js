@@ -11,7 +11,7 @@ import Navigation from "./Navigation";
 // import Footer from "./Footer"
 
 export default function PortfolioContainer () {
-    const [currentPage, setCurrentPage] = useState('Portfolio');
+    const [currentPage, setCurrentPage] = useState('Contact');
 
     const RenderPage = () => {
       if (currentPage === 'About') {
