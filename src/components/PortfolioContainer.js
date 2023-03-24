@@ -10,8 +10,8 @@ import Footer from "./Footer";
 import Navigation from "./Navigation";
 // import Footer from "./Footer"
 
-const PortfolioContainer = () => {
-    const [currentPage, setCurrentPage] = useState('About');
+export default function PortfolioContainer () {
+    const [currentPage, setCurrentPage] = useState('Portfolio');
 
     const RenderPage = () => {
       if (currentPage === 'About') {
@@ -33,10 +33,8 @@ const PortfolioContainer = () => {
             <Header>
                 <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
             </Header>
-                <RenderPage/>
+              <RenderPage/>
             <Footer/>
         </div>
     );
 };
-
-export default PortfolioContainer;
