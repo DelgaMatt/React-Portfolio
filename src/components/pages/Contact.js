@@ -7,7 +7,7 @@ const Contact = () => {
     };
 
     return (
-        <section style={backgroundColor} className="d-flex min-vh-100 align-items-center justify-content-center flex-column">
+        <section style={backgroundColor} className="jumbotron d-flex vh-100 align-items-center justify-content-center flex-column">
             <h1 className="text-center display-6 p-4 text-light">Contact Me</h1>
 
             <card className="d-flex justify-content-center pb-4 w-50">

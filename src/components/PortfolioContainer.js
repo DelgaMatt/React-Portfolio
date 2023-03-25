@@ -14,7 +14,7 @@ export default function PortfolioContainer () {
 
     const RenderPage = () => {
       if (currentPage === 'About') {
-        return <About />;
+        return <About currentPage={currentPage} handlePageChange={handlePageChange}/>;
       }
       if (currentPage === 'Contact') {
         return <Contact />;
@@ -27,8 +27,12 @@ export default function PortfolioContainer () {
   
     const handlePageChange = (page) => setCurrentPage(page);
 
+    const appFont = {
+      fontFamily: 'Tinos'
+    }
+
     return (
-        <div>
+        <div style={appFont}>
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
               <RenderPage/>
             <Footer/>
