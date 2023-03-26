@@ -61,13 +61,13 @@ const projects = [
 
 const Portfolio = () => {
     const backgroundColor = {
-        backgroundColor: '#474440'
+        backgroundColor: '#333738'
     };
 
 
     return (
         <section className="container-fluid p-4 row g-0 text-light" style={backgroundColor}>
-            <h1 className="text-center display-6 p-4">Portfolio</h1>
+            <h1 className="text-center display-6 p-4 text-decoration-underline">Portfolio</h1>
             <Project projects={projects}/>
         </section>
     )

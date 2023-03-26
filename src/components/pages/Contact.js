@@ -8,14 +8,14 @@ const Contact = () => {
 
 
     return (
-        <section style={backgroundColor} className="jumbotron d-flex vh-100 align-items-center justify-content-center flex-column">
-            <h1 className="text-center display-6 p-4 text-light">Contact Me</h1>
-
+        <section>
+        <div style={backgroundColor} className="jumbotron d-flex vh-100 align-items-center text-light flex-column">
+            <h1 className="text-center display-6 pt-5 text-light text-decoration-underline">Contact Me</h1>
+            <div className="m-4"> You can also reach me by email <a href="mailto: matthewrdelgado@gmail.com">here</a> or by filling out the form below</div>
+            
             <card className="d-flex justify-content-center pb-4 w-50">
-                <div className="w-100 sm-w-100 py-8 py-lg-16 px-4 max-w-screen-md border rounded border-light text-light">
-                    <p className="mb-8 font-light text-center text-gray-200 sm:text-xl"></p>
-                   
-                    <form className="">
+                <div className="w-100 py-8 px-4 max-w-screen border rounded border-light text-light">
+                    <form>
                         <div className="my-2">
                             <label for="name" className="block mb-2 text-sm">Full name:</label><br></br>
                             <input for="name" id="name"
@@ -40,7 +40,8 @@ const Contact = () => {
 
                 </div>
             </card>
-        </section>
+        </div>
+    </section>
     )
 };
 

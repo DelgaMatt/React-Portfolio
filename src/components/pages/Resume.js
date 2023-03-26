@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 
 const Resume = () => {
 
@@ -7,8 +7,9 @@ const Resume = () => {
     };
 
     return (
-        <section style={backgroundColor} className="jumbotron d-flex vh-100 align-items-center flex-column">
-            <h1 className="text-center display-6 p-4 text-light text-decoration-underline">Resume</h1>
+        <section>
+        <div style={backgroundColor} className="jumbotron d-flex vh-100 align-items-center flex-column">
+            <h1 className="text-center display-6 p-5 text-light text-decoration-underline">Resume</h1>
             <button className="btn w-25 justify-content-center rounded-pill bg-dark ">
                 <a
                     className="text-white"   
@@ -21,8 +22,8 @@ const Resume = () => {
                     <span>Download My Resume</span>
                 </a>
             </button>
-            <section className="mt-5 d-flex justify-content-around text-light text-center w-100">
-                <div className="">
+            <section className="mt-5 d-flex justify-content-around text-light text-center w-100 h-100">
+                <div className="h-100">
                     <h2 className="text-light display-6 ">Front End Proficiencies</h2>  
                     <ul className="style-none">
                         <li> HTML5</li>
@@ -35,7 +36,7 @@ const Resume = () => {
                         <li>React</li>
                     </ul>
                 </div>
-                <div className="border-left ">
+                <div className="h-100">
                     <h2 className="text-light display-6 ">Back End Proficiencies</h2>
                     <ul>
                         <li>NodeJS</li>
@@ -53,6 +54,7 @@ const Resume = () => {
                     </ul>
                 </div>
             </section>
+            </div>
         </section>
     )
 }

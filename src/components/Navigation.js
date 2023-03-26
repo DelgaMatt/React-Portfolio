@@ -2,7 +2,7 @@ import React from "react";
 
 const Navigation = ({ currentPage, handlePageChange }) => {
     return (
-        <ul className="navbar-nav nav-tabs ms-auto my-2 mx-4 my-lg-0 ">
+        <ul className="navbar-nav nav-tabs ms-auto my-2 mx-5 my-lg-0 ">
             <li className="nav-item px-2">
                 <a  
                     href="#about"

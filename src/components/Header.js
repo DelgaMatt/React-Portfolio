@@ -8,8 +8,8 @@ const Header = (props) => {
         backgroundColor: '#4c4444'
     }
     return (
-        <nav className="navbar navbar-dark navbar-expand-lg w-auto navbar-scroll py-3 px-2 px-lg-6 shadow-lg text-light" style={backgroundColor}>
-            <h1 class="px-5 font-weight-normal h1 display-6">Matthew Delgado</h1>
+        <nav className="navbar navbar-dark navbar-expand-lg w-auto navbar-scroll px-2 shadow-lg text-light d-flex sm-flex-column border-bottom" style={backgroundColor}>
+            <h1 class="px-5 font-weight-normal h1 display-4 ">M.D.</h1>
             <Navigation  currentPage={currentPage} handlePageChange={handlePageChange}/>
         </nav>
     );
