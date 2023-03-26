@@ -1,8 +1,5 @@
 import React from 'react';
 import '../App.css'
-// import beernbites from "../images/beer-n-bites.herokuapp.com_ (1).png"
-// import concertcrawler from "../images/ConcertCrawler_.png"
-
 
 const Project = (props) => {
     return (
@@ -11,7 +8,7 @@ const Project = (props) => {
             {props.projects.map((project) => (
 
                 <div className='project m-4 shadow-lg text-center'>
-                    <img src={project.image} alt="Beer'n'Bites" style={{ height: '300px', width: '469PX' }} className="image" />
+                    <img src={project.image} alt="project-img" style={{ height: '300px', width: '469PX' }} className="image" />
                     <div className='middle text-white  rounded bg-dark'>
                         <div className='d-flex justfify-content-center align-items-center p-4 '>
                             <a href={project.deployed} target="_blank" rel="noopener noreferrer">
@@ -27,9 +24,9 @@ const Project = (props) => {
 
 
                     </div>
-                </div>
-            ))
-            }
+
+            </div>
+            ))}
 
         </div>
     );
