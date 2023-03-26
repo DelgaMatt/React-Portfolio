@@ -25,7 +25,7 @@ const About = ({ currentPage, handlePageChange }) => {
                             Matthew Delgado
                         </div>
                         <div className="display-6 p-2">
-                            Full Stack Developer ⬩ Artist ⬩ Designer
+                            Full Stack Engineer ⬩ Artist ⬩ Designer
                         </div>
                         <a href="#portfolio"
                             onClick={() => handlePageChange('Portfolio')}
