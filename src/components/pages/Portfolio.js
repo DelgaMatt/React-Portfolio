@@ -1,6 +1,7 @@
 import React from "react";
 import Project from "../Project";
 
+import sherpagroup from "../../images/sherpa-studios.herokuapp.com_ (3).png"
 import beernbites from "../../images/beer-n-bites.herokuapp.com_ (1).png"
 import concertcrawler from "../../images/ConcertCrawler_.png"
 import jate from "../../images/jate.png";
@@ -10,7 +11,15 @@ import socialnet from "../../images/Social-Network-API.png"
 
 const projects = [
     {
-        id: 0,
+        id: 1,
+        title: "Sherpa Studios",
+        image: sherpagroup,
+        description: "MERN Stack Application",
+        repo: "https://github.com/imjustSahen/Software-Sherpas",
+        deployed: "https://sherpa-studios.herokuapp.com/",
+    },
+    {
+        id: 1,
         title: "Beer'N'Bites",
         image: beernbites,
         description: "Full Stack Application",
@@ -18,7 +27,7 @@ const projects = [
         deployed: "https://beer-n-bites.herokuapp.com",
     },
     {
-        id: 1,
+        id: 2,
         title: "Concert Crawler",
         image: concertcrawler,
         description: "Full Stack Application",
@@ -26,7 +35,7 @@ const projects = [
         deployed: "https://pocket-traders.herokuapp.com/",
     },
     {
-        id: 2,
+        id: 3,
         title: "J.A.T.E",
         image: jate,
         description: "Progressive Web Application",
@@ -34,7 +43,7 @@ const projects = [
         deployed: "https://text-editor-pwa-2.herokuapp.com/",
     },
     {
-        id: 3,
+        id: 4,
         title: "Weather Dashboard",
         image: weatherdash,
         description: "Front End Application",
@@ -42,14 +51,14 @@ const projects = [
         deployed: "https://pocket-traders.herokuapp.com/",
     },
     {
-        id: 4,
+        id: 5,
         title: "E-Commerce API",
         image: ecomm,
         description: "Back End Application",
         repo: "https://github.com/DelgaMatt/E-commerce-Back-End",
     },
     {
-        id: 5,
+        id: 6,
         title: "Social Network API",
         image: socialnet,
         description: "Back End Application",
