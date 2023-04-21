@@ -13,8 +13,9 @@ const Resume = () => {
             <button className="btn w-25 justify-content-center rounded-pill bg-dark ">
                 <a
                     className="text-white"   
-                    href={"/resume.pdf"}
+                    href={"/MatthewDelgado-Resume.pdf"}
                     target="_blank" rel="noreferrer"
+                    download={"/MatthewDelgado-Resume.pdf"}
                 >
                     <span className="icon px-2">
                         <i className="fa fa-download"></i>
