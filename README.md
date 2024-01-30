@@ -9,7 +9,7 @@
   - [License](#license)
   - [Questions?](#questions)
   ## Usage
-![localhost_3000_React-Portfolio](https://user-images.githubusercontent.com/115049801/227802964-5faccea3-fc1f-43ae-85c5-25f6450f2162.png)
+![localhost_3000_React-Portfolio](https://github.com/DelgaMatt/React-Portfolio/assets/115049801/2a4efded-475d-4e66-8577-18a18f815ff7)
 
   You can view the deployed application [here](https://delgamatt.github.io/React-Portfolio/)
   ## License
