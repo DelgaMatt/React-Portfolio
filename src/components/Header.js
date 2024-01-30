@@ -5,7 +5,7 @@ const Header = (props) => {
     const {currentPage, handlePageChange} = props;
 
     const backgroundColor = {
-        backgroundColor: '#4c4444'
+        backgroundColor: '#000000'
     }
     return (
         <nav className="navbar navbar-dark navbar-expand-lg w-auto navbar-scroll px-2 shadow-lg text-light d-flex sm-flex-column border-bottom" style={backgroundColor}>

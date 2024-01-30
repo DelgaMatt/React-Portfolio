@@ -1,10 +1,10 @@
 import React from "react";
 import background from '../../images/jeremy-bishop-8xznAGy4HcY-unsplash.jpg';
-import portrait from '../../images/IMG_4820.png'
+import portrait from '../../images/portrait.png'
 
 const About = ({ currentPage, handlePageChange }) => {
     const backgroundColor = {
-        backgroundColor: '#333738'
+        backgroundColor: '#474440'
     };
 
     return (
@@ -25,16 +25,16 @@ const About = ({ currentPage, handlePageChange }) => {
                             Matthew Delgado
                         </div>
                         <div className="display-6 p-2">
-                            Full Stack Engineer ⬩ Artist ⬩ Designer
+                            Full Stack + Mobile Engineer ⬩ Designer
                         </div>
                         <a href="#portfolio"
                             onClick={() => handlePageChange('Portfolio')}
                             className={currentPage === 'Portfolio' ? 'nav-link active bg-dark' : 'nav-link'}
                         >
-                            <button className="btn  text-white rounded-pill py-2 px-4 mt-4 border-light bg-dark ">View my portfolio</button>
+                            <button className="btn text-white rounded-pill py-2 px-4 mt-4 border-light bg-dark ">View my portfolio</button>
                         </a>
                     </div>
-                    <img alt="portrait" src={portrait} style={{ width: '230px', border: '1px', overflow: 'hidden' }} className="border border-dark shadow-lg"></img>
+                    <img alt="portrait" src={portrait} style={{ width: '230px', border: '1px', overflow: 'hidden' }} className="border border-dark rounded-circle shadow-lg"></img>
                 </div>
             </div>
             <div className="d-flex text-light p-4 align-items-center" style={backgroundColor}>

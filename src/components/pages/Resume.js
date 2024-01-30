@@ -15,7 +15,7 @@ const Resume = () => {
                     className="text-white"   
                     href={"/MatthewDelgado-Resume.pdf"}
                     target="_blank" rel="noreferrer"
-                    download={"/MatthewDelgado-Resume.pdf"}
+                    download={"/Mobile+FullStack.pdf"}
                 >
                     <span className="icon px-2">
                         <i className="fa fa-download"></i>

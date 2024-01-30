@@ -8,7 +8,7 @@ const Project = (props) => {
             {props.projects.map((project) => (
 
                 <div className='project m-4 shadow-lg text-center'>
-                    <img src={project.image} alt="project-img" style={{ height: '300px', width: '469PX' }} className="image" />
+                    <img src={project.image} alt="project-img" style={{ height: '300px', width: '469PX' }} className="image img-fluid" />
                     
                     
                     <div className='middle text-white  rounded bg-dark'>

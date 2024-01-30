@@ -4,14 +4,28 @@ import Project from "../Project";
 import sherpagroup from "../../images/sherpa-studios.herokuapp.com_ (3).png"
 import beernbites from "../../images/beer-n-bites.herokuapp.com_ (1).png"
 import concertcrawler from "../../images/ConcertCrawler_.png"
-import jate from "../../images/jate.png";
+import satellite from "../../images/satellite.png"
 import weatherdash from "../../images/Weather-Dashboard.png"
-import ecomm from "../../images/e-commerce.png"
+import mealsapp from "../../images/meals-app.png"
 import socialnet from "../../images/Social-Network-API.png"
 
 const projects = [
     {
         id: 1,
+        title: "Satellite",
+        image: satellite,
+        description: "Mobile Chat App",
+        repo: "https://github.com/DelgaMatt/Satellite-Chat-App",
+    },
+    {
+        id: 2,
+        title: "Meals App",
+        image: mealsapp,
+        description: "Mobile Application",
+        repo: "https://github.com/DelgaMatt/Meals-App",
+    },
+    {
+        id: 3,
         title: "Sherpa Studios",
         image: sherpagroup,
         description: "MERN Stack Application",
@@ -19,7 +33,7 @@ const projects = [
         deployed: "https://sherpa-studios.herokuapp.com/",
     },
     {
-        id: 1,
+        id: 4,
         title: "Beer'N'Bites",
         image: beernbites,
         description: "Full Stack Application",
@@ -27,7 +41,7 @@ const projects = [
         deployed: "https://beer-n-bites.herokuapp.com",
     },
     {
-        id: 2,
+        id: 5,
         title: "Concert Crawler",
         image: concertcrawler,
         description: "Full Stack Application",
@@ -35,15 +49,7 @@ const projects = [
         deployed: "https://pocket-traders.herokuapp.com/",
     },
     {
-        id: 3,
-        title: "J.A.T.E",
-        image: jate,
-        description: "Progressive Web Application",
-        repo: "https://github.com/DelgaMatt/Text-Editor-PWA-",
-        deployed: "https://text-editor-pwa-2.herokuapp.com/",
-    },
-    {
-        id: 4,
+        id: 6,
         title: "Weather Dashboard",
         image: weatherdash,
         description: "Front End Application",
@@ -51,14 +57,7 @@ const projects = [
         deployed: "https://pocket-traders.herokuapp.com/",
     },
     {
-        id: 5,
-        title: "E-Commerce API",
-        image: ecomm,
-        description: "Back End Application",
-        repo: "https://github.com/DelgaMatt/E-commerce-Back-End",
-    },
-    {
-        id: 6,
+        id: 7,
         title: "Social Network API",
         image: socialnet,
         description: "Back End Application",
@@ -70,7 +69,7 @@ const projects = [
 
 const Portfolio = () => {
     const backgroundColor = {
-        backgroundColor: '#333738'
+        backgroundColor: '#474440'
     };
 
 
