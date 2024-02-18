@@ -13,6 +13,7 @@ const projects = [
     {
         id: 1,
         title: "Satellite",
+        mobile: true,
         image: satellite,
         description: "Mobile Chat App",
         repo: "https://github.com/DelgaMatt/Satellite-Chat-App",
@@ -20,6 +21,7 @@ const projects = [
     {
         id: 2,
         title: "Meals App",
+        mobile: true,
         image: mealsapp,
         description: "Mobile Application",
         repo: "https://github.com/DelgaMatt/Meals-App",

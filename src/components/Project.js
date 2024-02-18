@@ -8,9 +8,10 @@ const Project = (props) => {
             {props.projects.map((project) => (
 
                 <div className='project m-4 shadow-lg text-center'>
-                    <img src={project.image} alt="project-img" style={{ height: '300px', width: '469PX' }} className="image img-fluid" />
-                    
-                    
+                    <img src={project.image} 
+                        alt="project-img" 
+                        style={{ height: project.mobile ? '550px' : '300px', width: project.mobile ? '350px': '469px' }} 
+                        className="image img-fluid" />
                     <div className='middle text-white  rounded bg-dark'>
                         <div className='d-flex justfify-content-center align-items-center p-4 '>
                             <a href={project.deployed} target="_blank" rel="noopener noreferrer">
@@ -24,10 +25,8 @@ const Project = (props) => {
                             </div>
                         </div>
                     </div>
-
             </div>
             ))}
-
         </div>
     );
 }
