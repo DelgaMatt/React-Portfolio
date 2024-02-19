@@ -10,7 +10,7 @@ const Project = (props) => {
                 <div className='project m-4 shadow-lg text-center'>
                     <img src={project.image} 
                         alt="project-img" 
-                        style={{ height: project.mobile ? '550px' : '300px', width: project.mobile ? '350px': '469px' }} 
+                        style={{ height: project.mobile ? '600px' : '300px', width: project.mobile ? '350px': '469px', margin: project.mobile ? '25px': '0px'}} 
                         className="image img-fluid" />
                     <div className='middle text-white  rounded bg-dark'>
                         <div className='d-flex justfify-content-center align-items-center p-4 '>
