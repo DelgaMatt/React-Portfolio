@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.5f220c86.css",
-    "main.js": "/React-Portfolio/static/js/main.896757f6.js",
-    "static/media/IMG_4820.png": "/React-Portfolio/static/media/IMG_4820.8b95e3f9dc140e91859f.png",
+    "main.css": "/React-Portfolio/static/css/main.a852cccf.css",
+    "main.js": "/React-Portfolio/static/js/main.d16b195e.js",
+    "static/media/sherpa-studios.herokuapp.com_ (3).png": "/React-Portfolio/static/media/sherpa-studios.herokuapp.com_ (3).03e9f1e22d6522da2db0.png",
+    "static/media/meals-app.png": "/React-Portfolio/static/media/meals-app.6dacd6a6f9365bbdfba4.png",
     "static/media/beer-n-bites.herokuapp.com_ (1).png": "/React-Portfolio/static/media/beer-n-bites.herokuapp.com_ (1).8d1c91dc54e17d4489a5.png",
     "static/media/ConcertCrawler_.png": "/React-Portfolio/static/media/ConcertCrawler_.451f74f0f9cb35529da7.png",
+    "static/media/satellite.png": "/React-Portfolio/static/media/satellite.08081199305eabc07139.png",
     "static/media/jeremy-bishop-8xznAGy4HcY-unsplash.jpg": "/React-Portfolio/static/media/jeremy-bishop-8xznAGy4HcY-unsplash.f6b2b156446084ef7529.jpg",
     "static/media/Weather-Dashboard.png": "/React-Portfolio/static/media/Weather-Dashboard.afce5edb1c654c484359.png",
-    "static/media/e-commerce.png": "/React-Portfolio/static/media/e-commerce.0d3e87ee7d5c64b0258e.png",
     "static/media/Social-Network-API.png": "/React-Portfolio/static/media/Social-Network-API.49243c8fa5d52eb42c86.png",
-    "static/media/jate.png": "/React-Portfolio/static/media/jate.7ef230ca8fb7f9436946.png",
+    "static/media/portrait.png": "/React-Portfolio/static/media/portrait.7121602c4076991f470c.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.5f220c86.css.map": "/React-Portfolio/static/css/main.5f220c86.css.map",
-    "main.896757f6.js.map": "/React-Portfolio/static/js/main.896757f6.js.map"
+    "main.a852cccf.css.map": "/React-Portfolio/static/css/main.a852cccf.css.map",
+    "main.d16b195e.js.map": "/React-Portfolio/static/js/main.d16b195e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f220c86.css",
-    "static/js/main.896757f6.js"
+    "static/css/main.a852cccf.css",
+    "static/js/main.d16b195e.js"
   ]
 }
